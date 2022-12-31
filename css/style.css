@@ -136,4 +136,12 @@ body
     padding-right: 1.4rem ;
     color: var(--black);
     cursor: pointer;
+    
+    
+}
+
+
+.header .search-form label:hover
+{
+    color:var(--green);
 }
