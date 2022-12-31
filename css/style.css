@@ -86,4 +86,17 @@ body
     font-size: 2rem;
     margin-right:.3rem ;
     text-align: center;
+    cursor: pointer;
+}
+
+.header .icons div:hover
+{
+    background :var(--green);
+    color: #fff;
+
+}
+
+#menu-btn
+{
+    display: none;
 }
