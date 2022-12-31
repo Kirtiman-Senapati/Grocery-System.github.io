@@ -100,3 +100,40 @@ body
 {
     display: none;
 }
+
+
+.header .search-form
+{
+    border: 1px solid;
+    position: absolute;
+    right: 2rem;
+    top: 120%;
+    width: 50rem;
+    height: 4.5rem;
+    background: #fff;
+    border-radius: .5rem ;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    
+
+}
+
+.header .search-form input
+{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 0  1.4rem;
+}
+
+.header .search-form label
+{
+    font-size: 2.4rem;
+    padding-right: 1.4rem ;
+    color: var(--black);
+    cursor: pointer;
+}
