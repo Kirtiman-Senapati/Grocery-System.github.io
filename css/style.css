@@ -51,6 +51,25 @@ body
     /*box-shadow: var(--box-sadow);*/
 }
 
+.btn
+{
+    border: .2rem solid var(--black);
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border: .2rem  solid var(--black);
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background: var(--green);
+    color: #fff;
+}
+
 .header .logo
 {
     font-size: 2.5rem;
@@ -158,12 +177,18 @@ body
 {
     border: 1px solid;
     position: absolute;
-    top:100%;
-    right: 2rem;
+    top:120%;
+    right: -110%;
     padding: 1rem;
     border-radius: .5rem;
     width: 30rem;
     background: #fff;
+}
+
+.header .shopping-cart.active
+{
+    right: 2rem;
+    transition: .4s linear;
 }
 
 
@@ -187,8 +212,8 @@ body
 {
     font-size: 2rem;
     position: absolute;
-    top: 50%;
-    right: 2rem;
+    top: 68%;
+    right: 1rem;
     cursor: pointer;
     transform: translateY(-50%);
 }
@@ -197,3 +222,40 @@ body
 {
     color: var(--green);
 }
+
+.header .shopping-cart .box .content h3
+{
+    color: var(--black);
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.header .shopping-cart .box .content span
+{
+    color: var(--light-colour);
+    font-size: 1.6rem;
+}
+
+.header .shopping-cart .box .content .quantity
+{
+    padding-left: .5rem;
+}
+
+.header .shopping-cart .total
+{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--black);
+}
+
+header .shopping-cart .btn
+{
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+
+
