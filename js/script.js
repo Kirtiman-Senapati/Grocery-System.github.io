@@ -13,3 +13,12 @@ document.querySelector('#cart-btn').onclick = () =>    // after click icon it wo
 {
     shopping.classList.toggle('active');
 }
+
+
+
+let loginform = document.querySelector('.login-form'); // create variable and select the quries 1st /select form 1st 
+
+document.querySelector('#login-btn').onclick = () =>    // after click icon it works active
+{
+    loginform.classList.toggle('active');
+}
