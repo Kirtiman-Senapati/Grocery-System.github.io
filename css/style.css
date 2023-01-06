@@ -121,6 +121,12 @@ body
     display: none;
 }
 
+.header .navbar.active
+{
+    right: 2rem;
+    transition: .4s linear;
+}
+
 
 .header .search-form
 {
@@ -317,4 +323,66 @@ header .shopping-cart .btn
 .header .login-form p a:hover
 {
     color: var(--green);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive For mobile Using media query*/
+
+@media (max-width:991px)
+{
+    html
+    {
+        font-size: 55%;
+       
+    }
+    .header
+    {
+        padding: 2rem;
+    }
+}
+
+
+@media (max-width:768px)
+{
+    #menu-btn
+    {
+        display: inline-block;
+    }
+
+    .header .navbar
+    {
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 30rem;
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+    .header .navbar a
+    {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+    }
+}
+
+@media (max-width:450px)
+{
+    html
+    {
+        font-size: 50%;
+       
+    }
 }
