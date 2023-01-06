@@ -262,12 +262,18 @@ header .shopping-cart .btn
     border: 1px solid;
     position: absolute;
     top: 110%;
-    right: 2rem;
+    right: -110%;
     padding: 2rem;
     border-radius: .5rem;
     background:#fff;
     text-align: center;
     width: 30rem;
+}
+
+.header .login-form.active
+{
+    right: 2rem;
+    transform: .4s linear;
 }
 
 .header .login-form h3
