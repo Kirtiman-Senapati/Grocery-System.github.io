@@ -5,9 +5,9 @@
     --green : green;
     --black : #130f40;
     --light-color:#666;
-    --box-sadow : 0.1rem 1rem rgba(0,0,0.1);
     --border :   2rem solid rgba(0,0,0.1);
     --outline :   .1rem solid rgba(0,0,0.1);
+    --box-sadow : 0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 
 *
@@ -328,6 +328,127 @@ header .shopping-cart .btn
 
 
 
+/*home section */
+
+section
+{
+    padding: 2rem 9%;
+}
+
+
+.home
+{
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    background: url(../images/banner-img.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:18rem ;
+    padding-bottom: 12rem;
+}
+
+.home .content
+{
+    border: 0px solid;
+    text-align: center;
+    width: 60rem;
+
+}
+
+.home .content h3
+{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content h3 span
+{
+    color: var(--green);
+    
+}
+
+.home .content p
+{
+    color: var(--black);
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+
+/*Common  section */
+
+.heading
+{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+
+.heading span
+{
+    background: var(--green);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+} 
+
+
+
+/*features section */
+
+.features .box-container
+{   
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.7rem;
+}
+
+
+.features .box-container .box
+{
+    border: 0px solid red;
+    padding: 3rem 2rem;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    background: #fff;
+    box-shadow: var(--box-sadow);
+}
+
+.features .box-container .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+
+.features .box-container .box img
+{
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.features .box-container .box h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+
+
+.features .box-container .box p
+{
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
 
 
 
@@ -402,73 +523,3 @@ header .shopping-cart .btn
         font-size: 2.5rem;
     }
 }
-
-/*home section */
-
-section
-{
-    padding: 2rem 9%;
-}
-
-
-.home
-{
-    border: 0px solid;
-    display: flex;
-    justify-content: center;
-    background: url(../images/banner-img.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top:18rem ;
-    padding-bottom: 12rem;
-}
-
-.home .content
-{
-    border: 0px solid;
-    text-align: center;
-    width: 60rem;
-
-}
-
-.home .content h3
-{
-    color: var(--black);
-    font-size: 3rem;
-}
-
-.home .content h3 span
-{
-    color: var(--green);
-    
-}
-
-.home .content p
-{
-    color: var(--black);
-    font-size: 1.2rem;
-    padding: 1rem 0;
-    line-height: 1.8;
-}
-
-
-
-/*Common  section */
-
-.heading
-{
-    text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
-    font-size: 3.5rem;
-    color: var(--black);
-}
-
-.heading span
-{
-    background: var(--green);
-    color: #fff;
-    display: inline-block;
-    padding: .5rem 3rem;
-    clip-path: polygon(100% 0,93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
-} 
