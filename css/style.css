@@ -397,6 +397,10 @@ header .shopping-cart .btn
         font-size: 50%;
        
     }
+    .heading
+    {
+        font-size: 2.5rem;
+    }
 }
 
 /*home section */
