@@ -512,8 +512,11 @@ section
 
 
 
-/* slider /*
-
+ /*.swiper .product-slider
+ {
+  width: 600px;
+  height: 300px;
+ }
 
 
 
