@@ -167,11 +167,11 @@
        <section class="products" id="products">
         <h1 class="heading"> Our <span>products</span></h1>
         
-        <div class="product-slider">
+        <div class="swiper product-slider">
 
-            <div class="wrapper">
+            <div class="swiper-wrapper">
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="/images/product-1.png" alt="">
                     <h3>Fresh Orange</h3>
 
@@ -190,7 +190,7 @@
 
                 <!--2nd product -->
                 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="/images/product-2.png" alt="">
                     <h3>Fresh Orange</h3>
 
@@ -209,7 +209,7 @@
 
                 <!--3rd product -->
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="/images/product-3.png" alt="">
                     <h3>Fresh Orange</h3>
 
@@ -240,9 +240,9 @@
 
         <div class="swiper product-slider">
 
-            <div class="wrapper">
+            <div class="swiper-wrapper">
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="/images/product-5.png" alt="">
                     <h3>Fresh Orange</h3>
 
@@ -261,7 +261,7 @@
 
                 <!--2nd product -->
                 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="/images/product-6.png" alt="">
                     <h3>Fresh Orange</h3>
 
@@ -280,7 +280,7 @@
 
                 <!--3rd product -->
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="/images/product-7.png" alt="">
                     <h3>Fresh Orange</h3>
 
@@ -298,7 +298,7 @@
                 </div>
 
                 <!--4th product-->
-
+                
                 
             </div>
 
@@ -313,6 +313,32 @@
     <script src="js/script.js"></script>
     <!--code for Sliding effect-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+    <script>
+        const swiper = new Swiper('.product-slider', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
     <!--code for Sliding effect-->
 
 </body>
