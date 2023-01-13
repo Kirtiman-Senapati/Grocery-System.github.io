@@ -471,8 +471,8 @@ section
     border-radius: .5rem;
     text-align: center;
     padding: 3rem 2rem;
-    outline-offset: -1rem;
-    outline: var(--outline);
+    /*outline-offset: -1rem;
+    outline: var(--outline);*/
     box-shadow: var(--box-sadow);
     transition: .2s linear;
 }
@@ -511,12 +511,23 @@ section
 
 
 
+.product-slider .swiper-button-prev, .product-slider .swiper-button-next
+{
+    color: green;
+}
 
- /*.swiper .product-slider
- {
+
+.product-slider .swiper-pagination-bullet-active
+
+{
+    background:orange;
+}
+
+/*.swiper .product-slider
+{
   width: 600px;
   height: 300px;
- }
+}
 
 
 
