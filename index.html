@@ -414,6 +414,133 @@
             </div>
         </section>
 
+        <!-- categories product section -->
+
+
+        <!-- Review Section -->
+
+        <section class="review" id="review">
+            <h3 class="heading"> Customer  <span> reviews </span></h3>
+        
+            <div class=" swiper review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <!-- 1st Review  -->
+
+                    <div class=" swiper-slide box">
+
+                        <img src="images/pic-1.png">
+                        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit voluptate maxime distinctio exercitationem labore libero optio nihil dolor amet non nesciunt fuga nostrum eligendi itaque, eveniet laboriosam tempore enim.</p>
+
+                        <h3> John Deo </h3>
+
+                        <!--stars-->
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                        </div>
+
+
+                        <!--stars-->
+
+                    </div>
+
+
+                    <!-- 2nd Review  -->
+
+                    <div class="swiper-slide box">
+
+                        <img src="images/pic-2.png">
+                        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit voluptate maxime distinctio exercitationem labore libero optio nihil dolor amet non nesciunt fuga nostrum eligendi itaque, eveniet laboriosam tempore enim.</p>
+
+                        <h3> Maria Eldone  </h3>
+
+                        <!--stars-->
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-"></i>
+                        </div>
+
+
+                        <!--stars-->
+
+                    </div>
+
+
+                    <!-- 3rd Review  -->
+
+                    <div class="swiper-slide box">
+
+                        <img src="images/pic-3.png">
+                        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit voluptate maxime distinctio exercitationem labore libero optio nihil dolor amet non nesciunt fuga nostrum eligendi itaque, eveniet laboriosam tempore enim.</p>
+
+                        <h3> James pieree </h3>
+
+                        <!--stars-->
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+
+
+                        <!--stars-->
+
+                    </div>
+
+
+                    <!-- 4th Review  -->
+
+                    <div class="swiper-slide box">
+
+                        <img src="images/pic-4.png">
+                        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit voluptate maxime distinctio exercitationem labore libero optio nihil dolor amet non nesciunt fuga nostrum eligendi itaque, eveniet laboriosam tempore enim.</p>
+
+                        <h3> Marry Linda </h3>
+
+                        <!--stars-->
+
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                        </div>
+
+
+                        <!--stars-->
+
+                    </div>
+
+                    <!-- end Review  -->
+
+                </div>
+
+                <!--Add new things in product -->
+
+            <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+        <!-- Review Section -->
+
+
+
 
 
 
@@ -450,6 +577,34 @@
 });
     </script>
     <!--code for Sliding effect-->
+
+  <!--code for Sliding effect for Review -->
+  <script>
+    const swiper1 = new Swiper('.review-slider', {
+    autoplay:
+    {
+        delay:4000,
+        disableOnInteraction:false,
+    },
+// Optional parameters
+direction: 'horizontal',
+loop: true,
+
+// If we need pagination
+pagination: {
+el: '.swiper-pagination',
+clickable:true,
+},
+
+// Navigation arrows
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+});
+</script>
 
 </body>
 </html>
