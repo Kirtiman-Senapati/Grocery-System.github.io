@@ -43,6 +43,7 @@ body
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -529,6 +530,67 @@ section
   height: 300px;
 }
 
+
+
+/* categories product section */
+
+
+
+.categories .box-container
+{   
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(26rem, 1fr));
+    gap: 1.7rem;
+}
+
+
+
+
+.categories .box-container .box
+{
+    padding: 3rem 0;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-sadow);
+    outline-offset: -1rem;
+    outline: var(--outline);
+    text-align: center;
+}
+
+
+
+
+.categories .box-container .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+
+
+.categories .box-container .box img
+{
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+
+
+.categories .box-container .box h4
+{
+    font-size: 2rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+
+.categories .box-container .box p
+{
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
 
 
 
