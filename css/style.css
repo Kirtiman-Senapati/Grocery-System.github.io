@@ -5,7 +5,7 @@
     --green : green;
     --black : #130f40;
     --light-color:#666;
-    --border :   2rem solid rgba(0,0,0.1);
+    --border :   .2rem solid rgba(0,0,0.1);
     --outline :   .1rem solid rgba(0,0,0.1);
     --box-sadow : 0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -597,14 +597,14 @@ section
 
 /*Review Section*/
 
-.review .review-slider
+.reviews .review-slider
 {
     border: 0px solid;
     padding: 1rem;
 }
 
 
-.review .review-slider .box
+.reviews .review-slider .box
 {
     border: 0px solid blue;
     background: #fff;
@@ -618,13 +618,13 @@ section
 }
 
 
-.review .review-slider .box:hover
+.reviews .review-slider .box:hover
 {
     box-shadow: 1px 1px 10px 4px var(--green);
 }
 
 
-.review .review-slider .box img
+.reviews .review-slider .box img
 {
     height: 10rem;
     width: 10rem;
@@ -632,7 +632,7 @@ section
 }
 
 
-.review .review-slider .box p
+.reviews .review-slider .box p
 {
     padding: 1rem 0;
     line-height: 1.8;
@@ -642,7 +642,7 @@ section
 
 
 
-.review .review-slider .box h3
+.reviews .review-slider .box h3
 {
     padding-bottom: .5rem;
     color: var(--black);
@@ -650,7 +650,7 @@ section
 }
 
 
-.review .review-slider .box .stars i
+.reviews .review-slider .box .stars i
 {
     color: orange;
     font-size: 1.7rem;
@@ -667,6 +667,82 @@ section
 
 
 
+/* Blog Section */
+
+.blogs .box-container
+{   
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(26rem, 1fr));
+    gap: 1.7rem;
+}
+
+
+
+.blogs .box-container .box
+{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: var(--box-sadow);
+    background: #fff;
+}
+
+.blogs .box-container .box img
+{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.blogs .box-container .box .content
+{
+    border: 0px solid ;
+    padding: 2rem;
+}
+
+
+.blogs .box-container .box .content .icons
+{
+    border: 0px solid blue ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+}
+
+
+.blogs .box-container .box .content .icons a
+
+{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+
+.blogs .box-container .box .content .icons a i
+{
+    color: green;
+    padding-right: .5rem;
+}
+
+.blogs .box-container .box .content h3
+{
+    line-height: 1.8;
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: .5rem 0;
+}
+
+
+.blogs .box-container .box .content p
+{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
 
 
 
