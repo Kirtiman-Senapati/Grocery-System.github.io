@@ -595,6 +595,76 @@ section
 
 
 
+/*Review Section*/
+
+.review .review-slider
+{
+    border: 0px solid;
+    padding: 1rem;
+}
+
+
+.review .review-slider .box
+{
+    border: 0px solid blue;
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-sadow);
+    transition: .2s linear;
+}
+
+
+.review .review-slider .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+
+.review .review-slider .box img
+{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+
+.review .review-slider .box p
+{
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+
+
+.review .review-slider .box h3
+{
+    padding-bottom: .5rem;
+    color: var(--black);
+    font-size: 2rem;
+}
+
+
+.review .review-slider .box .stars i
+{
+    color: orange;
+    font-size: 1.7rem;
+    padding: .5rem 0;
+}
+
+
+.review-slider .swiper-pagination-bullet-active
+
+{
+    background:green;
+}
+
+
 
 
 
