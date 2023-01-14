@@ -803,7 +803,7 @@ section
 {
     line-height: 1.8;
     font-size: 1.3rem;
-    color: var(--light-color);
+    color: var(--black);
     padding: 1rem 0;
 }
 
@@ -841,11 +841,10 @@ section
     width: 100%;
 }
 
-.footer .box-container .box .email p
+/*.footer .box-container .box .email p
 {
     font-size: 1.6rem;
-    color: var(--black);
-}
+}*/
 
 
 
