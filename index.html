@@ -725,12 +725,24 @@
 
                     <p> Suscribe For Latest Updates </p>
 
-                    <input type="email" placeholder="Your Email" class="email">
+                    <form action="https://formspree.io/f/mzbqzpqw" method="POST">
+                        
 
-                    <input type="submit" value="subscribe" class="btn">
+                        <label autocomplete="off">
 
-                    <img src="images/payment.png" class="payment-img">
-                    
+                            <input type="email"  placeholder="Your Email" class="email" autocomplete="off">
+
+                        </label>
+
+                        <label for="textarea" autocomplete="off">
+                            <p > Your message: </p>
+                            <textarea name="message" class="email"></textarea>
+                        </label>
+
+                            <input type="submit" value="subscribe" class="btn">
+                        
+                            <img src="images/payment.png" class="payment-img">
+                    </form>
                     
 
                 </div>
