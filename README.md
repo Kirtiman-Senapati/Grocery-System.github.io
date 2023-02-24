@@ -48,8 +48,14 @@ This project is used by the following companies:
 
 ## Screen Shots
 
-![App screen shot](https://)
+![App screen shot][output 1](https://user-images.githubusercontent.com/101942178/221097391-1c8b04c1-5741-4c9d-b29a-355da35668ba.png)
+ps://)
+![output 2](https://user-images.githubusercontent.com/101942178/221097452-2cb2baf6-a580-45dc-8082-8e37427092e6.png)
+![output 3](https://user-images.githubusercontent.com/101942178/221097474-985ed4a3-8e78-434d-ab45-75dbce9733c3.png)
+![output 4](https://user-images.githubusercontent.com/101942178/221097493-2f213f1d-e2ed-4199-b075-d1bde9452c3e.png)
 
+![output 5](https://user-images.githubusercontent.com/101942178/221097506-fc1f2c34-273f-44f0-acf0-623c16847364.png)
+![output 6](https://user-images.githubusercontent.com/101942178/221097520-237f5bcb-eb85-4248-b5e1-d29ebb7453f8.png)
 
 ## Tech Stack
 
